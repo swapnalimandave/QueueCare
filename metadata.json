@@ -1,0 +1,6 @@
+{
+  "name": "QueueCare",
+  "description": "A modern Hospital Queue & Appointment System featuring live queue tracking, estimated wait-time gauges, and doctor dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
