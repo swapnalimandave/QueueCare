@@ -1,28 +1,55 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:0284c7,100:0ea5e9&text=QueueCare&fontColor=ffffff&fontSize=60&fontAlignY=40&animation=fadeIn" />
+# QueueCare
 
-<h3>Smart Hospital Queue Management System</h3>
+### Smart Hospital Queue Management System
 
-<p>
-Improving Patient Experience • Reducing Waiting Time • Enhancing Healthcare Efficiency
-</p>
+<table>
+<tr>
+<td align="center" width="33%">
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=22&duration=3500&pause=1000&center=true&vCenter=true&width=850&lines=Real-Time+Patient+Queue+Tracking;Smart+Appointment+Management;Digital+Token+Generation;Healthcare+Workflow+Optimization;Built+for+Modern+Hospitals+and+Clinics" />
+### Patient Experience
 
-<br/><br/>
+Real-Time Queue Tracking
+Digital Token System
+Appointment Booking
 
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-<img src="https://img.shields.io/badge/Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white" />
-<img src="https://img.shields.io/badge/Healthcare-Tech-0284C7?style=for-the-badge" />
+</td>
 
-<br/><br/>
+<td align="center" width="33%">
+
+### Healthcare Efficiency
+
+Reduced Waiting Time
+Optimized Patient Flow
+Smart Scheduling
+
+</td>
+
+<td align="center" width="33%">
+
+### Hospital Operations
+
+Queue Analytics
+Doctor Management
+Live Monitoring
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
+<img src="https://img.shields.io/badge/Gemini_AI-4285F4?style=flat-square" />
+
+<br><br>
 
 <a href="https://mellow-starburst-d9806a.netlify.app/">
-  <img src="https://img.shields.io/badge/LIVE_DEMO-QUEUECARE-0284C7?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Live_Demo-QueueCare-0284C7?style=for-the-badge" />
 </a>
 
 </div>
@@ -31,23 +58,23 @@ Improving Patient Experience • Reducing Waiting Time • Enhancing Healthcare 
 
 # Overview
 
-QueueCare is an intelligent hospital queue management platform designed to modernize patient flow and appointment handling within healthcare facilities.
+QueueCare is a modern hospital queue management platform designed to reduce patient waiting times and improve healthcare service efficiency.
 
-The system enables patients to monitor their queue status in real time, schedule appointments digitally, and receive timely updates regarding their visit. Hospitals benefit from streamlined operations, reduced congestion, and improved resource utilization.
+The system enables patients to book appointments, monitor queue status in real time, and receive updates regarding their visit. Healthcare providers benefit from streamlined workflows, better patient flow management, and enhanced operational visibility.
 
 ---
 
 # Problem Statement
 
-Traditional hospital queue systems often result in:
+Traditional hospital queue systems often lead to:
 
 * Long patient waiting times
 * Overcrowded waiting areas
-* Lack of queue transparency
+* Lack of transparency in queue progression
 * Inefficient appointment coordination
-* Increased administrative burden
+* Increased administrative workload
 
-QueueCare addresses these challenges through a centralized digital platform that enhances communication between patients and healthcare providers.
+QueueCare addresses these challenges through a centralized digital platform that improves communication between patients and healthcare providers.
 
 ---
 
@@ -55,58 +82,67 @@ QueueCare addresses these challenges through a centralized digital platform that
 
 ## Patient Services
 
-* Real-time queue monitoring
 * Appointment scheduling
 * Digital token generation
+* Real-time queue tracking
 * Estimated waiting time display
-* Live queue updates
-* Mobile-responsive experience
+* Live status updates
+* Mobile-responsive interface
 
-## Hospital Administration
+## Administrative Services
 
-* Queue management dashboard
-* Department-wise patient tracking
+* Queue monitoring dashboard
 * Doctor schedule management
+* Department-wise patient tracking
 * Appointment control system
-* Performance monitoring
 * Operational analytics
+* Resource utilization monitoring
 
 ## System Capabilities
 
 * Secure authentication
-* Responsive user interface
+* Responsive design
 * Real-time synchronization
 * Scalable architecture
-* AI-powered healthcare assistance
+* AI-assisted healthcare workflows
 
 ---
 
 # Technology Stack
 
-| Category    | Technology   |
-| ----------- | ------------ |
-| Frontend    | React        |
-| Language    | TypeScript   |
-| Styling     | Tailwind CSS |
-| Build Tool  | Vite         |
-| AI Services | Gemini API   |
-| Deployment  | Netlify      |
+| Category       | Technology   |
+| -------------- | ------------ |
+| Frontend       | React        |
+| Language       | TypeScript   |
+| Styling        | Tailwind CSS |
+| Build Tool     | Vite         |
+| AI Integration | Gemini API   |
+| Deployment     | Netlify      |
 
 ---
 
-# Live Application
+# Project Goals
 
-https://mellow-starburst-d9806a.netlify.app/
+* Reduce patient waiting times
+* Improve healthcare accessibility
+* Enhance patient satisfaction
+* Optimize hospital operations
+* Support data-driven decision making
 
 ---
 
 # Installation
 
+## Prerequisites
+
+* Node.js
+* npm
+
 ## Clone Repository
 
 ```bash
 git clone <repository-url>
-cd queuecare
+cd QueueCare
 ```
 
 ## Install Dependencies
@@ -116,6 +152,8 @@ npm install
 ```
 
 ## Configure Environment Variables
+
+Create a `.env.local` file:
 
 ```env
 GEMINI_API_KEY=your_api_key_here
@@ -129,26 +167,47 @@ npm run dev
 
 ---
 
-# Future Roadmap
+# Project Structure
 
-* AI-based wait time prediction
+```text
+src/
+├── components/
+├── pages/
+├── assets/
+├── services/
+├── hooks/
+├── utils/
+└── types/
+```
+
+---
+
+# Future Enhancements
+
+* AI-powered wait time prediction
 * WhatsApp & SMS notifications
 * Multi-hospital deployment
 * Advanced analytics dashboard
-* Emergency queue prioritization
 * Electronic Health Record integration
+* Emergency queue prioritization
 * Doctor mobile application
+
+---
+
+# Live Application
+
+https://mellow-starburst-d9806a.netlify.app/
 
 ---
 
 # Vision
 
-QueueCare aims to transform healthcare operations by replacing traditional waiting systems with a transparent, efficient, and patient-centric digital experience.
+QueueCare aims to transform healthcare operations through intelligent queue management, creating a more transparent, efficient, and patient-centric healthcare experience.
 
 ---
 
 <div align="center">
 
-### Building Smarter Healthcare Infrastructure Through Technology
+### Building Smarter Healthcare Systems Through Technology
 
 </div>
